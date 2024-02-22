@@ -3,11 +3,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        inputFetching();
+        while (true) {
+            inputFetching();
+        }
     }
 
     private static void inputFetching() {
-        System.out.println("please enter the Text You want to check ! ");
+        System.out.println("\nplease enter the Text You want to check ! ");
         System.out.print("value: ");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine().trim();
